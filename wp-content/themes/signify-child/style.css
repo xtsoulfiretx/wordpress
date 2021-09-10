@@ -867,6 +867,21 @@ nav.navigation.posts-navigation .nav-links a:hover, nav.navigation.posts-navigat
   border: 1px solid #145c9e;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .entry-content a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.entry-content a:not(.more-link):not(.button):not(.fa):not(.remove):focus,
+.entry-summary a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.entry-summary a:not(.more-link):not(.button):not(.fa):not(.remove):focus,
+.entry-content a.wp-block-button__link:not(.more-link):not(.button):not(.fa):not(.remove),
+.entry-summary a.wp-block-button__link:not(.more-link):not(.button):not(.fa):not(.remove),
+.ew-about a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.widget_text a:not(.more-link):not(.button):not(.fa):not(.remove):hover,
+.ew-about a:not(.more-link):not(.button):not(.fa):not(.remove):focus,
+.widget_text a:not(.more-link):not(.button):not(.fa):not(.remove):focus {
+  border: none;
+}
+}
+
 /* Button Hover Text Color */
 .more-link:hover,
 .more-link:focus,
