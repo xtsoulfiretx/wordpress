@@ -29,7 +29,7 @@ define( 'DB_USER', 'alexilam_alexilambrou' );
 define( 'DB_PASSWORD', 'Th3P0w3rN1n3' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'http://wordpress.alexi-lambrou.netmatters-scs.co.uk/' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
